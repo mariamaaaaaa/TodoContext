@@ -12,7 +12,8 @@ export default function Tache() {
         <h1>To_Do </h1>
         <h1 id='c'>Context</h1>
         <form >
-            <label id='e' >Entrer une tache</label> <input type="text" className='form-control' onChange={(e)=>(setTaches(e.target.value))} value={taches} />
+            <label id='e' >Entrer une tache</label>
+             <input type="text" className='form-control' onChange={(e)=>(setTaches(e.target.value))} value={taches} />
             <br />
             <input type="button"  onClick={addTache} value="ajouter une tache" className='btn' id='Ajoute' />
         </form>
