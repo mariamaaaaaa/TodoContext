@@ -1,0 +1,37 @@
+
+.text{
+    color: rgb(247, 135, 7);
+}
+body{
+    background-image: url(maroc.jpg);
+}
+
+
+ body{
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    
+ }
+ h1{
+    color: rgb(247, 135, 7);
+   
+    
+ }
+
+ ul li {
+    list-style: none;
+ }
+ #c{
+    color: rgb(216, 235, 44);
+ }
+ #Ajoute{
+    background-color: rgb(253, 101, 46);
+    color: white;
+    border: none;
+ }
+ #t{
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+ }
